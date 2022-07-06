@@ -1,0 +1,190 @@
+*{box-sizing: border-box;
+  font-family: 'Livvic', sans-serif;
+  font-weight: 600;
+  font-size: ;
+
+
+
+}
+
+
+
+body{
+ 
+  margin: 0;
+  padding: 0;
+  /* position: relative; */
+  /* z-index: -1; */
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top{
+  position: relative;
+  height: 700px;
+  background-color: #014E56;
+  padding-top: 70px;
+  
+ 
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 129px;
+ 
+}
+
+.header_start{
+  display: flex;
+  gap: 80px;
+}
+
+.header_list{
+  display: flex;
+  gap: 20px;
+}
+
+.list-item{
+  display: inline-block;
+  
+
+}
+
+.list_link{
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+
+.button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+border-radius: 24px;  
+font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+padding: 9px 21px 9px 21px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.hero_title {
+  width: 635px;
+  font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+color: #FFFFFF;
+margin: 0;
+
+}
+
+.talent{
+color: #F67E7E;
+font-weight: 700;
+font-size: 100px;
+line-height: 100px;
+}
+
+
+
+.hero_right {
+  
+}
+.hero_line {
+  position: absolute;
+  width: 50px;
+  height: 4px;
+  background-color: #79C8C7;
+  margin-top: 10px;
+ 
+
+
+}
+
+
+.hero_txt {
+  width: 445px;
+  font-size: 18px;
+line-height: 28px;
+color: #FFFFFF;
+margin-top: 89px;
+
+
+}
+
+
+.images{
+  position: absolute;
+  top: 40%;
+  width: 100px;
+  height: 200px;
+  
+}
+
+.top_rec{
+  position: absolute;
+  bottom: 0;
+  
+  
+}
+.rec_2{
+  position: absolute;
+  
+
+
+}
+
+.rec_3{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+
+
+}
+
+.images_2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 700px;
+  height: 100px;
+
+  
+}
+
+
+.second_1{
+  position: absolute;
+  left: 0;
+  top: 0; 
+}
+
+.second_3{
+  position: absolute;
+  left: 25%;
+  
+  
+}
+
+.second_5{
+  position: absolute;
+  top: 0;
+  left: 51%;
+
+}
